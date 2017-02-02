@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Alex+Brush');
+
+@import url('https://fonts.googleapis.com/css?family=Arsenal:400,700');
+
+
+body {
+   background-image: url(https://www.dropbox.com/s/vckv0jukihyazd9/lace%2C%20orig.png?raw=1);
+		background-repeat: repeat;
+	height: 1000px;
+}
+
+
+/*nav bar*/
+ul.main {
+    list-style-type: none;
+		margin-top:0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: ;
+		position:fixed;
+	top:0;
+	right:0;
+		
+}
+
+ul.main li {float: right;}
+
+ul.main li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 20px 70px 20px 70px;
+    text-decoration: none;
+}
+
+ul.main li a:hover:not(.active) {background-color: #9c9c5a;}
+
+ul.main li a.active {background-color: #9c9c5a;}
+
+
+
+@media screen and (max-width: 600px){
+    ul.topnav li.right, 
+    ul.topnav li {float: ;}
+}
+
+/*end nav bar*/
+
+
+.logo {
+	width: 250px;
+	height: 240px;
+	position: fixed;
+	margin-top: -125px;
+	margin-left: 20px;
+}
+
+
+.items {
+	margin: 200px 30px 200px 30px;
+	text-align: center;
+	position: relative;
+}
+
+.lacey { 
+  background-image: url("https://www.dropbox.com/s/upqrvxd9qv9wkd4/lace%20taupe%20-%20Copy%20%282%29.jpg?raw=1");
+		background-repeat: repeat-x;
+}
+
+.burlap {
+	margin-top: 80px ;
+	margin: auto;
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-repeat: repeat-y;
+	
+}
+ 
+.titles {
+	font-family: Alex Brush;
+	text-align: center;
+	margin-top: 5%;
+	font-size: 400%;
+}
+
+.about1 {
+	text-align: center;
+	margin: 0px 250px 0px 250px;
+	font-family: Arsenal;
+	font-weight: bold;
+	line-height: 20px;
+	margin-bottom: 10px;
+}
+
+.about2 {
+	text-align: center;
+	margin: 0px 250px 0px 250px;
+	font-family: Arsenal;
+	font-weight: bold;
+	line-height: 20px;
+}
+
+.started1 {
+	text-align: center;
+	margin: 0px 250px 0px 250px;
+	font-family: Arsenal;
+	font-weight: bold;
+	line-height: 20px;
+}
+
+.started2 {
+	text-align: center;
+	margin: 0px 250px 0px 250px;
+	font-family: Arsenal;
+	font-weight: bold;
+	line-height: 20px;
+}
+.closing {
+	text-align: center;
+	margin: 0px 250px 0px 250px;
+	font-family: Arsenal;
+	font-weight: bold;
+	line-height: 20px;
+}
+
+.sig {
+	text-align: left;
+	margin: 0px 250px 0px 250px;
+	font-family: Arsenal;
+	font-weight: bold;
+	line-height: 20px;
+}
+
+.name {
+	text-align: left;
+	margin: 0px 140px 0px 140px;
+}

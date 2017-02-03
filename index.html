@@ -3,9 +3,11 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<style>
-@import url('https://fonts.googleapis.com/css?family=Alex+Brush');
+		@import url('https://fonts.googleapis.com/css?family=Alex+Brush');
 
 @import url('https://fonts.googleapis.com/css?family=Arsenal:400,700');
+
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
 
 
 body {
@@ -13,6 +15,7 @@ body {
 		background-repeat: repeat;
 	height: 1000px;
 }
+button { display:none;}
 
 
 /*nav bar*/
@@ -45,8 +48,40 @@ ul.main li a.active {background-color: #9c9c5a;}
 
 
 @media screen and (max-width: 600px){
-    ul.topnav li.right, 
-    ul.topnav li {float: ;}
+     button {display:inline-block;} 
+	img.logo {display:none;}
+	ul.main {display:none;}
+	p.about1 {text-align:left;
+		margin-left:0%;
+		width:100%;
+		font-size:150%;}
+	p.about2 {text-align:left;
+		margin-left:0%;
+		width:100%;
+		font-size:150%;}
+	p.started1 {text-align:left;
+		margin-left:0%;
+		width:100%;
+		font-size:150%;}
+	p.started2 {text-align:left;
+		margin-left:0%;
+		width:100%;
+		font-size:150%;}
+	p.closing  {text-align:left;
+		margin-left:0%;
+		width:100%;
+		font-size:150%;}
+	
+	p.sig  {text-align:left;
+		margin-left:0%;
+		width:100%;
+		font-size:150%;}
+	
+	p.name {text-align:left;
+		margin-left:0%;
+		width:100%;
+		font-size:150%;
+	}
 }
 
 /*end nav bar*/
@@ -56,10 +91,9 @@ ul.main li a.active {background-color: #9c9c5a;}
 	width: 250px;
 	height: 240px;
 	position: fixed;
-	margin-top: -125px;
+	margin-top: -75px;
 	margin-left: 20px;
 }
-
 
 .items {
 	margin: 200px 30px 200px 30px;
@@ -85,7 +119,7 @@ ul.main li a.active {background-color: #9c9c5a;}
 .titles {
 	font-family: Alex Brush;
 	text-align: center;
-	margin-top: 5%;
+	margin-top: 6%;
 	font-size: 400%;
 }
 
@@ -94,7 +128,7 @@ ul.main li a.active {background-color: #9c9c5a;}
 	margin: 0px 250px 0px 250px;
 	font-family: Arsenal;
 	font-weight: bold;
-	line-height: 20px;
+	line-height: 23px;
 	margin-bottom: 10px;
 }
 
@@ -103,7 +137,8 @@ ul.main li a.active {background-color: #9c9c5a;}
 	margin: 0px 250px 0px 250px;
 	font-family: Arsenal;
 	font-weight: bold;
-	line-height: 20px;
+	line-height: 23px;
+	margin-bottom: 10px;
 }
 
 .started1 {
@@ -111,7 +146,8 @@ ul.main li a.active {background-color: #9c9c5a;}
 	margin: 0px 250px 0px 250px;
 	font-family: Arsenal;
 	font-weight: bold;
-	line-height: 20px;
+	line-height: 23px;
+	margin-bottom: 10px;
 }
 
 .started2 {
@@ -119,39 +155,46 @@ ul.main li a.active {background-color: #9c9c5a;}
 	margin: 0px 250px 0px 250px;
 	font-family: Arsenal;
 	font-weight: bold;
-	line-height: 20px;
+	line-height: 23px;
+	margin-bottom: 10px;
 }
+
 .closing {
 	text-align: center;
 	margin: 0px 250px 0px 250px;
 	font-family: Arsenal;
 	font-weight: bold;
-	line-height: 20px;
+	line-height: 23px;
+	margin-bottom: 15px;
+	
 }
 
 .sig {
 	text-align: left;
-	margin: 0px 250px 0px 250px;
-	font-family: Arsenal;
-	font-weight: bold;
-	line-height: 20px;
+	margin: 0px 250px 0px 255px;
+	font-family: Dancing Script;
+	line-height: 23px;
+	font-size: 25px
 }
 
 .name {
 	text-align: left;
-	margin: 0px 140px 0px 140px;
+	margin: 0px 250px 0px 255px;
+	font-family: Dancing Script;
+	font-size: 35px;
+	
 }
 	</style>
 </head>
 
 <body>
-
-<ul class="main lacey"> <li align="center">  <a href="#news">News</a></li>
-  <li align="center"><a href="#contact">Contact</a></li>
-  <li align="center"><a href="#shop">Shop</a></li>
-  <li align="center"><a class="active" href="#about">About</a></li>
+<a href="https://hannahgram.github.io" >	<button type="button">Main Menu</button></a>
+<ul class="main lacey"> <li align="center">  <a href="https://hannahgram.github.io/news">News</a></li>
+  <li align="center"><a href="https://hannahgram.github.io/contact">Contact</a></li>
+  <li align="center"><a href="https://hannahgram.github.io/products">Shop</a></li>
+  <li align="center"><a class="active" href="https://hannahgram.github.io/about">About</a></li>
 	<li align="center"> <a 
-href="#home"> Home</a></li>
+href="https://hannahgram.github.io/home"> Home</a></li>
 	
 </ul>
 	
@@ -165,8 +208,6 @@ href="#home"> Home</a></li>
 	
 	<p class="about2"> As for me, I am mostly driven from my left brain.  When not engaged in left brain activity, I supply the photos and hand lettering.  Mom calls me her "technical adsistant": (a self invented colláge of the words advisor and assistant).  I like to think I am the "brains" for figuring our how to execute some of the technical mechanics regarding the "I have and idea" puzzles my mom can conjure.  Technical mechanics not withstanding, I enjoy web coding and creating websites such as this.  My Dad and I are in process of beginning to create websites for other crafters and small business.  </p>
 	
-	<h2 class="titles"> How it All Started</h2>
-	
 	<p class="started1"> But I digress.  Colláge was born from the ambiguous idea to market and sell my photography.  We began to utilize the boxes of photo frames my mom had energetically collected.  We also began to market and sell my photos on photo cards.  Long story short, as with most things in life....if a little is good, more has got to be better, right?  So, last fall, we committed to a local craft fair.  Now..."necessity being the mother of invention"....so we were compelled to produce even more merchandise from our accumulated "stuff."  So much so it was more than our little 8'x5' craft booth could hold.  We had no IDEA!</p>
 	
 	<p class="started2"> Fast forward.  Remember? "Necessity is the mother of invention."  We sold much merchandise, but some remained, adding more to our vast accumulation of "stuff."  Therefore, voila!  A website to sell our merchandise.  In an effort to narrow our focus (I hope!), and provide more closet space, we seek to sell our inventory and retire some of the listed items.  OK...unless of course...there are those "special orders."</p>
@@ -176,3 +217,4 @@ href="#home"> Home</a></li>
 		
 </body>
 </html>
+	
